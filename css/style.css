@@ -23,8 +23,13 @@ nav ul{
     margin-left: 20px;
 }
 
-#aisentinel{
-    margin-right: 610px;
+#iniciosesion{
+    background-color: #1E56A0;
+}
+
+#registrar{
+    background-color: #1E56A0;
+    margin-right: 40px;
 }
 
 nav ul li{
@@ -39,10 +44,6 @@ nav ul li a{
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: capitalize;
-}
-
-#iniciosesion{
-    background-color: #1E56A0;
 }
 
 section.banner{
@@ -106,5 +107,38 @@ footer{
 section.contacto{
     margin-top: 50px;
     color:#353535;
+    text-align: center;
+    font-family: mont;
+}
+
+/*producto*/
+
+.product{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.textP{
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    align-content: flex-start;
+}
+
+.imgP{
+    margin-left: 0px;
+}
+
+/*Nosotros*/
+
+.nosotros{
+    display: flex;
+    align-items: center;
+}
+
+.textN{
+    flex: 1;
+    padding: 20px;
     text-align: center;
 }
