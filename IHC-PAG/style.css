@@ -1,0 +1,144 @@
+*{/*asterisco para aplicar a todo*/
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;/*?*/
+    top: 0;
+    z-index: 1000;
+}
+
+nav{
+    background-color: #163172;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul{
+    float:left;
+    margin-left: 20px;
+}
+
+#iniciosesion{
+    background-color: #1E56A0;
+}
+
+#registrar{
+    background-color: #1E56A0;
+    margin-right: 40px;
+}
+
+nav ul li{
+    display: inline-block;/*?*/
+    line-height: 80px;/*?*/
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color:#fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+
+section.banner{
+    background-image: url("/img/main-background.jpg");
+    background-size: cover;
+    background-position: 8% 50%;
+    height: 450px;
+    padding: 2rem 0;/*?*/
+}
+
+.containerB{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+}
+
+.col2{
+    padding: 1rem 2rem;
+    width:350px;
+    height: 350px;
+    display: flex;
+    border-radius: 100%;
+    justify-content: center;
+    flex-direction: column;/*?*/
+    background-color: rgba(22, 49, 114, 0.7);
+    /*#163172;*/
+}
+
+h1{
+    font-size: 2rem;
+    color: #fff;
+}
+
+#txtBanner{
+    margin: 1.5rem 0;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    color:#fff;
+}
+
+.btnBanner{
+    background: #1E56A0;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/*footer*/
+
+footer{
+    background-color: #D6E4F0;
+    color: #353535;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*contacto*/
+
+section.contacto{
+    margin-top: 50px;
+    color:#353535;
+    text-align: center;
+    font-family: mont;
+}
+
+/*producto*/
+
+.product{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.textP{
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    align-content: flex-start;
+}
+
+.imgP{
+    margin-left: 0px;
+}
+
+/*Nosotros*/
+
+.nosotros{
+    display: flex;
+    align-items: center;
+}
+
+.textN{
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
